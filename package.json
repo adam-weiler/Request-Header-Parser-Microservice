@@ -1,0 +1,30 @@
+{
+	"name": "fcc-project-request-header-parser",
+	"version": "0.0.5",
+	"description": "The Request Header Parser Microservice Apis project from Free Code Camp.",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^5.0.0-alpha.2",
+		"cors": "^2.8.1"
+	},
+	"engines": {
+		"node": "4.4.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/adam-weiler/Request-Header-Parser-Microservice"
+	},
+	"keywords": [
+    "node",
+    "express",
+    "microservice",
+    "api",
+    "freecodecamp",
+    "glitch"
+	],
+  "author": "Adam Weiler",
+	"license": "MIT"
+}

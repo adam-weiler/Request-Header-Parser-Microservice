@@ -18,7 +18,7 @@ app.get("/", function (req, res) {
   res.sendFile(__dirname + '/views/index.html');
 });
 
-app.get("/api/whoami", function (req, res) {
+app.get("/api/whoami", function (req, res) { //User is visiting the whoami url.
   let user_ip = req.ip; //Gets the user IP address.
   //let user_ip = req.header('x-forwarded-for') || req.connection.remoteAddress; //Gets another flavour of user IP address.
   let user_lang = req.headers["accept-language"]; //Gets user language.
